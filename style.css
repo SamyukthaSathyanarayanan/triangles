@@ -1,0 +1,88 @@
+/* navbar  */
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+:root{
+  --primary-color:#0961d3;
+  --grey-color: #e7e5e4;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family:  'Source Serif Pro', serif;
+}
+
+.navigation {
+  background-color: var(--primary-color);
+  padding:1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-content: center;
+} 
+
+.nav-links{
+  display: flex;
+  list-style: none;
+}
+
+.link{
+  text-decoration: none;
+  color: white;
+}
+
+.navigation li{
+  padding: 0rem 1.5rem;
+  font-size: large;
+}
+
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  max-width: 30rem;
+}
+
+input,button{
+  margin:1rem 0rem;
+  font-size: large;
+}
+
+button{
+  cursor:pointer;
+}
+input[type="radio"] {  
+  margin: 0rem .3rem;
+  color: aqua;
+  vertical-align: middle;
+}
+
+h1{
+  text-decoration: underline;
+}
+
+#check{
+  background-color: #d68c1d;
+  border-color:  #d68c1d;
+}
+
+label, .question{
+  font-size:large;
+}
+
+#output{
+  font-size: 1.5rem;
+  margin: 1.3rem 0rem;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.formbtn{
+ margin-top: 2rem; 
+ width: 30rem;
+}
