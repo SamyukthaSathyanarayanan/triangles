@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navigation">
+        <ul class="nav-links">
+            <li>
+            <a class="link" href="index.html">Is Triangle?</a>
+            </li>
+            <li>
+            <a class="link" href="quiz.html">Quiz</a>
+            </li>
+            <li>
+            <a class="link" href="hypotenuse.html">Hypotenuse</a>
+            </li>
+            <li>
+            <a class="link" href="areaTriangle.html">Area</a>
+            </li>
+        </ul>
+    </nav> 
+  <main>
+    <div class="container">
+        <h1>Triangle Quiz</h1>
+        <form class="quiz-form">
+            <div class="question-container">
+                <p class="question"><b>1. Which of the following triangles have the same side lengths?</b></p>
+                <label><input type="radio" name="question-1" value="Scalene">Scalene</label>
+                <label><input type="radio" name="question-1" value="Isosceles"> Isosceles</label>
+                <label><input type="radio" name="question-1" value="Equilateral">Equilateral</label>
+            </div>
+            <div class="question-container">
+                <p class="question"><b>2.  In a right triangle, the longest side is:</b></p>
+                <label><input type="radio" name="question-2" value="Perpendicular">Perpendicular</label>
+                <label><input type="radio" name="question-2" value="Hypotenuse">Hypotenuse</label>
+                <label><input type="radio" name="question-2" value="Base"> Base</label>
+            </div>
+            <div class="question-container">
+                <p class="question"><b>3. What's the name of the type of maths that studies the sides and angles of triangles?</b></p>
+                <label><input type="radio" name="question-3" value="Geometry"> Geometry</label>
+                <label><input type="radio" name="question-3" value="Triology"> Triology </label>
+                <label><input type="radio" name="question-3" value="Trignometry">Trignometry</label>
+            </div>
+            <div class="question-container">
+                <p class="question"><b>4. Which ancient Greek philosopher studied triangles?</b>
+                </p>
+                <label><input type="radio" name="question-4" value="Plato">Plato </label>
+                <label><input type="radio" name="question-4" value="Pythagoras">Pythagoras</label>
+                <label><input type="radio" name="question-4" value="Aristotle">Aristotle</label>
+            </div>
+            <div class="question-container">
+                <p class="question"><b>5. The angles opposite to equal sides of a triangle are:</b></p>
+                <label><input type="radio" name="question-5" value="Equal"> Equal</label>
+                <label><input type="radio" name="question-5" value="Unequal"> Unequal</label>
+                <label><input type="radio" name="question-5" value="Complementary angles">  Complementary angles</label>
+            </div>
+            
+        </form>
+    </div>
+
+    <button id="check" class="formbtn"> Check</button>
+
+    <div id="output"> </div>
+    <script src="quiz.js"></script>
+
+</main>
+</body>
+</html>
