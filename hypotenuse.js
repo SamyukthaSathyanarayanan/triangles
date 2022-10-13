@@ -12,7 +12,7 @@ function calcHypo(a,b) {
 function Hypotenuse() {  
   const hyp = calcHypo(Number(input[0].value),Number(input[1].value));
   if(Number(input[0].value) >0 && Number(input[1].value) > 0 ) {
-      display.innerText="The hypotenuse is " + hyp;
+      display.innerText="The hypotenuse is " + hyp.toFixed(2);
     }
   else{
     display.innerText="Please enter positive number greater than 0";
